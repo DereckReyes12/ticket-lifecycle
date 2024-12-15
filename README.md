@@ -105,7 +105,7 @@ After setting up the ticket i started working on it talked to the client
 </ul>
 <p><img src="https://i.imgur.com/chYlXkt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>after talking with the person on the phone she bought a new charger and it worked</p>
-<p>___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+<p>__________________________________________________________________________________________________________</p>
 
 <p>Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
 Switch to admin panel and assign yourself View-access to Sys Admins
