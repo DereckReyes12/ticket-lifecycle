@@ -104,6 +104,28 @@ After setting up the ticket i started working on it talked to the client
   <li>SLA= SEV-B</li>
 </ul>
 <p><img src="https://i.imgur.com/chYlXkt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<p>after talking with the person on the phone she bought a new charger and it worked</p>
+<p>___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+
+<p>Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
+Switch to admin panel and assign yourself View-access to Sys Admins
+Switch to agent panel and observe the escalated ticket
+Observe that you can no longer make changes to it
+</p>
+<p>Solve all of the tickets
+Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
+</p>
+<p>Explain ticket intake IRL:
+Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
+A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
+</p>
+<p>Finishing up and additional practice
+Obviously there is much more to this product that covered here
+Encourage the use and exploration of the email feature
+Do this lab a few more times, enough times where you’re able to implement it with this simple checklist. This will build your intuition.
+Talk about Technical skill pillar
+Re-touch on technical ability and re-doing the lab several
+</p>
 
 
 
