@@ -1,11 +1,9 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/Clzj7Xs.png" height="75%" width="100%"alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
-
-
 
 
 <h2>Environments and Technologies Used</h2>
@@ -27,106 +25,77 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
-<p>
-<img src="https://i.imgur.com/V65tet9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-I start this lab by creating a ticket and signing in as a agent to work the ticket,in this case
-  i used Chase as the first agent. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/tBlwbFG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>I opened the ticket and started setting it up.
-<ul>
-  <li>priority emergency</li>
-  <li>department= corp. admin</li>
-  <li>assign ticket to chase{myself in this case}</li>
-  <li>SLA plan= choose SEV-A</li>
-</ul>
-
-<br />
-
-<p>
-<img src="https://i.imgur.com/2wN3TPe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-After setting up the ticket i started working on it talked to the client
-  <p>as if it were in real life working as a desk help agent is always advice to talk to</p>
-  <p>the client in the phone before even setting up the ticket and investigate the problem</p>
-  <p>because may be is more severe than you thought and have to reclassify or vice versa.</p>
-  <p>Also treating the costumer the right way and always updating them once in a while is crucial</p>
-  <p> so they know what the situation is. </p>
-  
-</p>
+<h3 align="center">Intake</h3>
 <br />
 <p>
-  <img src="https://i.imgur.com/ifBsoGB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  User Ken creates a ticket:
 </p>
-<mark>#2 ticket</mark>
-<p>created the ticket as katty.</p>
-
-
-<p><img src="https://i.imgur.com/1Dqhl24.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
-<p>The set up</p>
-<ul>
-  <li>Priority= normal</li>
-  <li>department= support</li>
-  <li>help topic= general inquiry</li>
-  <li>assign to Jhon Doe</li>
-  <li>SLA= SEV-C</li>
-</ul>
-<P>After all that set up i started working the ticket as i said is always best to talk in the phone</P>
-<p>to have a better understanding of the proble, and be able to make a corect assesment of the problem.</p>
+<p>
+  <img src="https://i.imgur.com/ewueu9b.png: height="75%" width="100%" alt="Open a Ticket"/>
+</p>
 <br />
-<p><img src="https://i.imgur.com/bRr5AYv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p> </p>
-
-<p>went back and forth with the client resolved the ticket and closed it.{i used internal note for try to be patient costumer is mad}</p>
 <br />
-<p><img src="https://i.imgur.com/lBmkURi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> </p> 
-<p>Here we have the closed ticket.</p>
+<h3 align="center">Ticket assignment</h3>
 <br />
-<p><img src="https://i.imgur.com/DSc0TPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> </p>
-
-<p><mark>#3 ticket</mark>
-<p>Last ticket created by Alanis</p></p>
-
+<p>
+  Support agent John Doe logs in.
+</p>
+<p>
+  <img src="https://i.imgur.com/i3sa7FH.jpg" height="75%" width="100%" alt="Support agent login"/>
+</p>
 <br />
-<p><img src="https://i.imgur.com/5gMfBfE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
-<p>the set up</p>\
-<ul>
-  <li>priority= normal</li>
-  <li>department= support</li>
-  <li>help topic= general inquiry</li>
-  <li>assign to Jhon Doe</li>
-  <li>SLA= SEV-B</li>
-</ul>
-<p><img src="https://i.imgur.com/chYlXkt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
-<p>after talking with the person on the phone she bought a new charger and it worked</p>
-<p>__________________________________________________________________________________________________________</p>
-
-<p>Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
-Switch to admin panel and assign yourself View-access to Sys Admins
-Switch to agent panel and observe the escalated ticket
-Observe that you can no longer make changes to it
+<br />
+<h3 align="center">Communication</h3>
+<br />
+<p>
+  Agent John sees this is Sev-A emergency ticket and has to reassign ticket to a System Administrator.
 </p>
-<p>Solve all of the tickets
-Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
+<p>
+  He makes sure to leave a proper message:
 </p>
-<p>Explain ticket intake IRL:
-Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
-A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
+<p>
+  <img src="https://i.imgur.com/wVucqKf.png" height="75%" width="100%" alt="Communication"/>
 </p>
-<p>Finishing up and additional practice
-Obviously there is much more to this product that covered here
-Encourage the use and exploration of the email feature
-Do this lab a few more times, enough times where you’re able to implement it with this simple checklist. This will build your intuition.
-Talk about Technical skill pillar
-Re-touch on technical ability and re-doing the lab several
+<br />
+<br />
+<h3 align="center">Working the issue</h3>
+<br />
+<p>
+  System Administrator agent Jane Doe logs in:
 </p>
-
+<p>
+  <img src="https://i.imgur.com/i61WQKi.jpg" height="75%" width="100%" alt="Sys admin agent login"/>
+</p>
+<p>
+  Agent Jane works the issue and communicates back to agent John.
+</p>
+<p>
+  She also makes sure to switch the status of the issue from open to resolved:
+</p>
+<p>
+  <img src="https://i.imgur.com/DYPJufr.png" height="75%" width="100%" alt="Working the issue"/>
+</p>
+<br />
+<br />
+<h3 align="center">Resolution</h3>
+<br />
+<p>
+  Support agent John sees in his portal that System Administrator agent Jane has left him a message and that the ticket is now closed:>
+</p>
+<p>
+  <img src="https://i.imgur.com/kRpUysm.png" height="75%" width="100%" alt="Working the issue"/>
+</p>
+<br />
+<br />
+<p>
+  This was a very simplistic scenario of the creation of a ticket by a user, how the ticket is assigned and displays the communication of a ticket between agents; subsequently resulting in a resolution.
+</p>
+<p>
+Additional scenerios may arise during ticket assessment. A ticket might need to be reassigned to a diferent department,escalated to a higher severity level,or both.In some cases,it may require reassignment to a more qualified agent or department,depending on the business impact of the issue.
+</p>
+<p>
+ I hope this tutorial provides you with a clear understanding and general overvirew of a ticket's lifecycle.Help desk agents can typically handle anywhere from 10 to 100 tickets daily,depending on the size and demands of the company.
+</p>
 
 
 
